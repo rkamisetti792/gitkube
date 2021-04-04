@@ -1,4 +1,4 @@
-FROM golang:1.9
+FROM golang:1.15.11
 
 RUN apt-get update && apt-get install --no-install-recommends -y -q build-essential git
 
