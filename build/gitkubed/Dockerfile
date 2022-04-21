@@ -1,4 +1,4 @@
-FROM debian:stretch-20171009
+FROM debian:stretch
 MAINTAINER tiru@hasura.io
 
 # Install openssh server
