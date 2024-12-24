@@ -1,4 +1,4 @@
-FROM golang:1.10
+FROM golang:1.24rc1
 
 # install gox
 RUN go get github.com/mitchellh/gox
